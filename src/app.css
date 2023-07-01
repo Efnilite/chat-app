@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    @apply text-ice font-sans;
+
+    scrollbar-width: thin;
+}
+
+body {
+    @apply bg-slate-950 overflow-hidden;
+}
+
+@layer components {
+    .popup-center {
+        @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
+    }
+}
