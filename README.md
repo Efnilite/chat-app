@@ -1,6 +1,6 @@
 # chat-app
 Welcome to a global chat app, including user authentication and message synchronization, handled by PocketBase.
-The UI was created using Svelte and backend handling is done by TypeScript. The concept was inspired by 
+The UI was created using Svelte and Tailwind, and backend handling is done by TypeScript. The concept was inspired by 
 **[Fireship's $5 chat app](https://www.youtube.com/watch?v=gUYBFDPZ5qk)**.
 
 ### Showcase
